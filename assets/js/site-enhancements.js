@@ -283,28 +283,11 @@
               </div>
             </div>
 
-            <!-- Advantage 2 (Featured) -->
-            <div class="adv-bento-card adv-bento-featured">
-              <div class="nx-card-photo-bg" aria-hidden="true"><img src="${window.NX_CARD_PRINTS['cert-shooter'] || 'assets/img/card-prints/print-cert-shooter.jpg'}" class="nx-card-photo-img" alt="" /><div class="nx-card-paper-tone"></div></div>
-              <div class="adv-bento-top">
-                <span class="adv-bento-code">ADV // 02 · REAL-TIME TELEMETRY</span>
-                <div class="adv-bento-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/></svg>
-                </div>
-              </div>
-              <h3 class="adv-bento-title">Electronic Target Lane Sync with 0.00s Latency</h3>
-              <p class="adv-bento-text">Engineered to integrate seamlessly with 10m & 50m Electronic Scoring Targets (EST). Each shot’s decimal score, coordinate vector, and inner-ten status streams live to firing lane monitors, arena big-screens, and online viewer feeds simultaneously.</p>
-              <div class="adv-bento-tags">
-                <span class="adv-pill highlight">Sub-Millimeter Calibration</span>
-                <span class="adv-pill highlight">ISSF Countback Engine</span>
-              </div>
-            </div>
-
-            <!-- Advantage 3 -->
+            <!-- Advantage 2 -->
             <div class="adv-bento-card">
               <div class="nx-card-photo-bg" aria-hidden="true"><img src="${window.NX_CARD_PRINTS['certificate'] || 'assets/img/card-prints/print-certificate.jpg'}" class="nx-card-photo-img" alt="" /><div class="nx-card-paper-tone"></div></div>
               <div class="adv-bento-top">
-                <span class="adv-bento-code">ADV // 03 · CREDENTIAL INTEGRITY</span>
+                <span class="adv-bento-code">ADV // 02 · CREDENTIAL INTEGRITY</span>
                 <div class="adv-bento-icon">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="7" y1="16" x2="11" y2="16"/></svg>
                 </div>
@@ -315,37 +298,6 @@
                 <span class="adv-pill">Instant QR Verification</span>
                 <span class="adv-pill">Zero Certificate Forgery</span>
               </div>
-            </div>
-
-            <!-- Advantage 4 -->
-            <div class="adv-bento-card">
-              <div class="nx-card-photo-bg" aria-hidden="true"><img src="${window.NX_CARD_PRINTS['cert-mountain'] || 'assets/img/card-prints/print-cert-mountain.jpg'}" class="nx-card-photo-img" alt="" /><div class="nx-card-paper-tone"></div></div>
-              <div class="adv-bento-top">
-                <span class="adv-bento-code">ADV // 04 · FULL OPERATIONS</span>
-                <div class="adv-bento-icon">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
-                </div>
-              </div>
-              <h3 class="adv-bento-title">Complete Turnkey Competition Management</h3>
-              <p class="adv-bento-text">From online entry portals and entry fee reconciliation to providing technical range jury staff, lane cabling, and podium ceremony logistics — NeXShot manages the technical backbone so organizers can focus on celebrating the sport.</p>
-              <div class="adv-bento-tags">
-                <span class="adv-pill">Turnkey Hardware Setup</span>
-                <span class="adv-pill">Certified Technical Jury</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Live Dispatch Telemetry Strip -->
-          <div class="intro-telemetry-strip" data-reveal="true">
-            <div class="telemetry-strip-badge">
-              <span class="pulse-beacon"></span>
-              <span class="telemetry-label">NEXSHOT CLOUD MATCH CONDUIT</span>
-              <span class="telemetry-sub">// REAL-TIME EVENT BUS</span>
-            </div>
-            <div class="telemetry-ticker-box">
-              <div class="telemetry-ticker-item">● MATCH EVENT: Lane 08 fires shot 42 · Score 10.8 synced to spectator leaderboard</div>
-              <div class="telemetry-ticker-item">● RELAY STATUS: Relay 03 call time dispatched · 100% on-time check-in</div>
-              <div class="telemetry-ticker-item">● VERIFICATION: Cryptographic e-certificate NXS-2026-1109 published & verified</div>
             </div>
           </div>
         </div>
