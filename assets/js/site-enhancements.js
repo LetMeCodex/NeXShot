@@ -550,18 +550,18 @@
         }, 2200);
       }
 
-      // Card 1: Slot Booking -> Interactive Lane Slot Picker
+      // Card 1: Slot Booking -> Interactive Relay Slot Picker
       if (cards[1] && !cards[1].querySelector(".widget-slot-picker")) {
         const w = document.createElement("div");
         w.className = "widget-slot-picker";
         w.innerHTML = `
-          <div style="font-size:10px; color:#888; font-weight:700;">SELECT YOUR LANE & RELAY:</div>
+          <div style="font-size:10px; color:#888; font-weight:700;">SELECT YOUR RELAY:</div>
           <div class="slot-chips-row">
-            ${["LANE 02 · 09:00 AM", "LANE 04 · 10:30 AM", "LANE 07 · 12:00 PM", "LANE 09 · 02:00 PM"].map((s, i) => `
+            ${["RELAY 02 · 09:00 AM", "RELAY 04 · 10:30 AM", "RELAY 07 · 12:00 PM", "RELAY 09 · 02:00 PM"].map((s, i) => `
               <button type="button" class="slot-chip ${i === 1 ? "selected" : ""}" data-slot="${s}">${s}</button>
             `).join("")}
           </div>
-          <div class="slot-status-readout">✓ <b>Lane 04</b> allocated · Instant WhatsApp confirmation</div>
+          <div class="slot-status-readout">✓ <b>Relay 04</b> allocated · Instant WhatsApp confirmation</div>
         `;
         cards[1].appendChild(w);
 
@@ -571,14 +571,14 @@
           c.addEventListener("click", () => {
             chips.forEach(x => x.classList.remove("selected"));
             c.classList.add("selected");
-            const laneName = c.dataset.slot.split("·")[0].trim();
-            readout.innerHTML = `✓ <b>${laneName}</b> allocated · Instant WhatsApp confirmation`;
+            const relayName = c.dataset.slot.split("·")[0].trim();
+            readout.innerHTML = `✓ <b>${relayName}</b> allocated · Instant WhatsApp confirmation`;
             if (hasGSAP) G.fromTo(readout, { opacity: 0, y: 4 }, { opacity: 1, y: 0, duration: 0.3 });
           });
         });
       }
 
-      // Card 2: Digital Scoring -> Concentric Target Simulator
+      // Card 2: Live Scoring -> Concentric Target Simulator
       if (cards[2] && !cards[2].querySelector(".widget-target-sim")) {
         const w = document.createElement("div");
         w.className = "widget-target-sim";
@@ -631,49 +631,8 @@
         });
       }
 
-      // Card 3: Performance Records -> Animated Multi-series Bar Chart
-      if (cards[3] && !cards[3].querySelector(".widget-perf-chart")) {
-        const w = document.createElement("div");
-        w.className = "widget-perf-chart";
-        w.innerHTML = `
-          <div style="font-size:10px; color:#666; font-weight:700; margin-bottom:8px; font-family:'Geist Mono',monospace;">DECIMAL SERIES TOTALS (60 SHOTS):</div>
-          ${[
-            { s: "S1", val: 104.8, pct: 98 },
-            { s: "S2", val: 103.9, pct: 95 },
-            { s: "S3", val: 105.2, pct: 100 },
-            { s: "S4", val: 104.1, pct: 96 }
-          ].map(row => `
-            <div class="perf-bar-row">
-              <span style="width:24px; color:#888;">${row.s}</span>
-              <div class="perf-bar-track">
-                <div class="perf-bar-fill" data-pct="${row.pct}%"></div>
-              </div>
-              <span style="width:42px; text-align:right; font-weight:700;">${row.val}</span>
-            </div>
-          `).join("")}
-        `;
-        cards[3].appendChild(w);
-
-        if (hasGSAP) {
-          ScrollTrigger.create({
-            trigger: w,
-            start: "top 85%",
-            once: true,
-            onEnter: () => {
-              w.querySelectorAll(".perf-bar-fill").forEach((fill) => {
-                fill.style.width = fill.dataset.pct;
-              });
-            }
-          });
-        } else {
-          w.querySelectorAll(".perf-bar-fill").forEach((fill) => {
-            fill.style.width = fill.dataset.pct;
-          });
-        }
-      }
-
-      // Card 4: Digital Certificates -> Holographic Certificate Card
-      if (cards[4] && !cards[4].querySelector(".widget-holo-cert")) {
+      // Card 3: Digital Certificates -> Holographic Certificate Card
+      if (cards[3] && !cards[3].querySelector(".widget-holo-cert")) {
         const w = document.createElement("div");
         w.className = "widget-holo-cert";
         w.innerHTML = `
@@ -687,7 +646,7 @@
             <span style="color:#10B981;">✓ CRYPTOGRAPHIC SEAL</span>
           </div>
         `;
-        cards[4].appendChild(w);
+        cards[3].appendChild(w);
       }
     }
 
@@ -790,7 +749,7 @@
           dates: "31 OCT — 03 NOV 2026",
           tag: "Entries Open",
           isAccent: true,
-          desc: "Official 10m Rifle & Pistol shooting competition. NR, ISSF, Para/Deaf and Team categories with digital lane allocations.",
+          desc: "Official 10m Rifle & Pistol shooting competition. NR, ISSF, Para/Deaf and Team categories with digital relay allocations.",
           venue: "SOUL Shoot Firing Range, Punjabi Bagh, New Delhi",
           venueShort: "Punjabi Bagh, New Delhi",
           discipline: "10m Air Rifle & Pistol",
@@ -800,6 +759,23 @@
           posterUrl: "assets/img/matches/match-soul-shoot.jpg",
           b64Key: "soul",
           waUrl: "https://wa.me/917505363050?text=Hello%20SOUL%20Shoot%2C%20I%20want%20to%20register%20for%20the%2010m%20Rifle%20%26%20Pistol%20Competition."
+        },
+        {
+          id: "khalsa",
+          title: "The Khalsa Sports Carnival Shooting Match",
+          dates: "01 NOV — 03 NOV 2026",
+          tag: "Entry ₹300",
+          isAccent: true,
+          desc: "Rifle & Pistol Match organized by Khalsa Mont. Senior Secondary School. Categories: Little Champ, Sub Youth, Youth. Champion of Champions (COC) finals on 3rd Nov evening.",
+          venue: "Khalsa Mont. Sr. Sec. School, Bulandshahr (Near Exhibition Ground)",
+          venueShort: "Khalsa Mont. School, Bulandshahr",
+          discipline: "10m Air Rifle & Pistol",
+          entryFee: "₹300 per shooter · Winner Medal & Trophy",
+          entryShort: "Entry ₹300 · Medal & Trophy",
+          contact: "8077667456 (Coach Jaykant Giri)",
+          posterUrl: "assets/img/matches/match-khalsa-carnival.jpg",
+          b64Key: "khalsa",
+          waUrl: "https://wa.me/918077667456?text=Hello%20Coach%20Jaykant%20Giri%2C%20I%20want%20to%20register%20for%20The%20Khalsa%20Sports%20Carnival%20Shooting%20Match."
         },
         {
           id: "guru",
