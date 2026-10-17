@@ -1,9 +1,7 @@
 /* NexShot site content. Edit names, scores, events and contacts here. */
 /* ===== Content ===== */
 window.CONTACTS=[
-  {role:"Organiser",name:"Ritesh",phone:"+91 84450 70791",wa:"918445070791",icon:"phone"},
-  {role:"Coordinator",name:"Shivam",phone:"+91 91056 97793",wa:"919105697793",icon:"phone"},
-  {role:"Tech support",name:"Tech line",phone:"+91 86309 20955",wa:"918630920955",icon:"chip"},
+  {role:"CEO & Founder",name:"Ritesh Chaudhary",phone:"+91 84450 70791",wa:"918445070791",icon:"phone"},
   {role:"Email",name:"Write to us",email:"nexshottechnologies@gmail.com",icon:"mail"}];
 window.COMPETITIONS=[
   {title:"1st NexShot Open Shooting Championship 2026",disc:"10m Air Rifle",date:"2026-07-18",fee:800,relays:4,lanes:12,status:"open",blurb:"State-level open event for sub-junior, junior and senior categories.",feature:true},

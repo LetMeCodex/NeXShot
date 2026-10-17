@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="tacticalGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0F172A" stroke-width="0.35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="0.6" fill="#0F172A" opacity="0.35"/>
+    </pattern>
+    <pattern id="diagHatch" width="16" height="16" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#0F172A" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="360" fill="url(#tacticalGrid)" opacity="0.45"/>
+
+  <!-- Mountain Topography Contour Ridges (Athletic Elevation Peaks) -->
+  <g stroke="#0F172A" stroke-width="0.75" opacity="0.32">
+    <path d="M 0.0,97.4 L 15.0,101.2 L 30.0,104.8 L 45.0,108.0 L 60.0,110.7 L 75.0,112.8 L 90.0,114.3 L 105.0,115.2 L 120.0,115.3 L 135.0,114.6 L 150.0,113.3 L 165.0,111.2 L 180.0,108.4 L 195.0,104.9 L 210.0,100.9 L 225.0,96.4 L 240.0,91.6 L 255.0,86.4 L 270.0,81.1 L 285.0,75.8 L 300.0,70.5 L 315.0,65.4 L 330.0,60.6 L 345.0,56.3 L 360.0,52.4 L 375.0,49.2 L 390.0,46.6 L 405.0,44.7 L 420.0,43.5 L 435.0,43.2 L 450.0,43.5 L 465.0,44.6 L 480.0,46.4 L 495.0,48.8 L 510.0,51.8 L 525.0,55.2 L 540.0,59.0 L 555.0,63.1 L 570.0,67.3 L 585.0,71.5 L 600.0,75.7" />
+    <path d="M 0.0,144.7 L 15.0,147.9 L 30.0,150.2 L 45.0,151.4 L 60.0,151.5 L 75.0,150.4 L 90.0,148.1 L 105.0,144.6 L 120.0,140.1 L 135.0,134.7 L 150.0,128.4 L 165.0,121.6 L 180.0,114.3 L 195.0,106.9 L 210.0,99.6 L 225.0,92.6 L 240.0,86.1 L 255.0,80.3 L 270.0,75.5 L 285.0,71.7 L 300.0,69.2 L 315.0,67.9 L 330.0,67.9 L 345.0,69.2 L 360.0,71.7 L 375.0,75.4 L 390.0,80.0 L 405.0,85.5 L 420.0,91.6 L 435.0,98.1 L 450.0,104.8 L 465.0,111.4 L 480.0,117.8 L 495.0,123.7 L 510.0,128.9 L 525.0,133.3 L 540.0,136.8 L 555.0,139.2 L 570.0,140.6 L 585.0,140.8 L 600.0,140.1" />
+    <path d="M 0.0,180.4 L 15.0,180.7 L 30.0,179.7 L 45.0,177.4 L 60.0,173.9 L 75.0,169.2 L 90.0,163.6 L 105.0,157.3 L 120.0,150.5 L 135.0,143.5 L 150.0,136.6 L 165.0,130.2 L 180.0,124.5 L 195.0,119.8 L 210.0,116.3 L 225.0,114.1 L 240.0,113.5 L 255.0,114.3 L 270.0,116.6 L 285.0,120.3 L 300.0,125.2 L 315.0,131.1 L 330.0,137.7 L 345.0,144.8 L 360.0,152.0 L 375.0,159.1 L 390.0,165.6 L 405.0,171.5 L 420.0,176.3 L 435.0,180.0 L 450.0,182.4 L 465.0,183.5 L 480.0,183.3 L 495.0,181.9 L 510.0,179.3 L 525.0,175.8 L 540.0,171.6 L 555.0,167.0 L 570.0,162.3 L 585.0,157.6 L 600.0,153.4" stroke="#E63946" opacity="0.25" stroke-dasharray="3 3"/>
+    <path d="M 0.0,217.7 L 15.0,215.5 L 30.0,212.4 L 45.0,208.7 L 60.0,204.4 L 75.0,199.5 L 90.0,194.4 L 105.0,189.0 L 120.0,183.6 L 135.0,178.4 L 150.0,173.4 L 165.0,168.9 L 180.0,165.0 L 195.0,161.8 L 210.0,159.4 L 225.0,158.0 L 240.0,157.6 L 255.0,158.2 L 270.0,159.7 L 285.0,162.3 L 300.0,165.8 L 315.0,170.2 L 330.0,175.3 L 345.0,181.0 L 360.0,187.1 L 375.0,193.5 L 390.0,200.0 L 405.0,206.4 L 420.0,212.6 L 435.0,218.5 L 450.0,223.7 L 465.0,228.3 L 480.0,232.0 L 495.0,234.9 L 510.0,236.9 L 525.0,237.8 L 540.0,237.8 L 555.0,236.9 L 570.0,235.0 L 585.0,232.3 L 600.0,229.0" />
+    <path d="M 0.0,253.4 L 15.0,249.8 L 30.0,245.8 L 45.0,241.6 L 60.0,237.3 L 75.0,233.2 L 90.0,229.3 L 105.0,226.1 L 120.0,223.4 L 135.0,221.7 L 150.0,220.8 L 165.0,221.0 L 180.0,222.2 L 195.0,224.5 L 210.0,227.7 L 225.0,231.8 L 240.0,236.6 L 255.0,242.0 L 270.0,247.8 L 285.0,253.7 L 300.0,259.6 L 315.0,265.2 L 330.0,270.4 L 345.0,274.9 L 360.0,278.6 L 375.0,281.4 L 390.0,283.1 L 405.0,283.7 L 420.0,283.2 L 435.0,281.7 L 450.0,279.2 L 465.0,275.9 L 480.0,271.8 L 495.0,267.3 L 510.0,262.4 L 525.0,257.3 L 540.0,252.4 L 555.0,247.7 L 570.0,243.5 L 585.0,239.9 L 600.0,237.1" />
+  </g>
+
+  <!-- Architectural 16-Lane Electronic Shooting Range Blueprint Schematic -->
+  <g stroke="#0F172A" stroke-width="0.75" opacity="0.4">
+    <!-- Firing Line Position Bar -->
+    <line x1="70" y1="230" x2="530" y2="230" stroke-width="1.4"/>
+    <text x="70" y="222" font-family="monospace" font-size="8" fill="#0F172A" letter-spacing="1">FIRING POINT LINE [10M / 50M]</text>
+    
+    <!-- Target Recovery Line -->
+    <line x1="70" y1="120" x2="530" y2="120" stroke-dasharray="3 3"/>
+    <text x="70" y="112" font-family="monospace" font-size="8" fill="#E63946" letter-spacing="1">ELECTRONIC SCORING LINE [EST CARRIER]</text>
+
+    <!-- Range Bays 01 to 10 Lane Dividers -->
+    <g stroke-dasharray="1 2">
+      <line x1="100" y1="120" x2="100" y2="230"/>
+      <line x1="145" y1="120" x2="145" y2="230"/>
+      <line x1="190" y1="120" x2="190" y2="230"/>
+      <line x1="235" y1="120" x2="235" y2="230"/>
+      <line x1="280" y1="120" x2="280" y2="230"/>
+      <line x1="325" y1="120" x2="325" y2="230"/>
+      <line x1="370" y1="120" x2="370" y2="230"/>
+      <line x1="415" y1="120" x2="415" y2="230"/>
+      <line x1="460" y1="120" x2="460" y2="230"/>
+      <line x1="505" y1="120" x2="505" y2="230"/>
+    </g>
+
+    <!-- Lane Target Positions & Target Circles -->
+    <g fill="none" stroke="#E63946" stroke-width="0.8">
+      <circle cx="100" cy="120" r="5"/>
+      <circle cx="145" cy="120" r="5"/>
+      <circle cx="190" cy="120" r="5"/>
+      <circle cx="235" cy="120" r="5"/>
+      <circle cx="280" cy="120" r="5"/>
+      <circle cx="325" cy="120" r="5"/>
+      <circle cx="370" cy="120" r="5"/>
+      <circle cx="415" cy="120" r="5"/>
+      <circle cx="460" cy="120" r="5"/>
+      <circle cx="505" cy="120" r="5"/>
+    </g>
+
+    <!-- Range Distance Dimension Arrow -->
+    <g stroke="#0F172A" stroke-width="0.8">
+      <line x1="550" y1="120" x2="550" y2="230"/>
+      <path d="M 547 126 L 550 120 L 553 126 M 547 224 L 550 230 L 553 224"/>
+      <text x="560" y="178" font-family="monospace" font-size="8" fill="#0F172A" transform="rotate(90 560 178)">10.00m</text>
+    </g>
+
+    <!-- Technical Jury Control Desk Blueprint -->
+    <rect x="235" y="250" width="135" height="32" rx="4" fill="none" stroke="#0F172A" stroke-width="0.9"/>
+    <text x="245" y="270" font-family="monospace" font-size="8" fill="#0F172A" letter-spacing="1">JURY COMMAND DESK</text>
+  </g>
+
+  <!-- Tactical Compass Rose (Orientation Bearing) in Top Right -->
+  <g transform="translate(480, 70)">
+    <circle cx="0" cy="0" r="28" stroke="#0F172A" stroke-width="0.6" opacity="0.4"/>
+    <circle cx="0" cy="0" r="22" stroke="#0F172A" stroke-width="0.5" opacity="0.3" stroke-dasharray="2 2"/>
+    <!-- Compass Pointer -->
+    <polygon points="0,-26 5,-6 0,0 -5,-6" fill="#E63946" opacity="0.75"/>
+    <polygon points="0,26 5,6 0,0 -5,6" fill="#0F172A" opacity="0.35"/>
+    <text x="0" y="-30" font-family="monospace" font-size="8" fill="#E63946" text-anchor="middle" font-weight="700">N</text>
+  </g>
+
+  <!-- Technical Watermark Telemetry -->
+  <g font-family="monospace" font-size="8" fill="#0F172A" opacity="0.5" letter-spacing="1.5">
+    <text x="35" y="340">RANGE OPERATIONS // TURNKEY LOGISTICS // ISSF TECHNICAL JURY CERTIFIED</text>
+    <!-- Corner Framing -->
+    <path d="M 20 25 L 20 15 L 30 15 M 570 15 L 580 15 L 580 25 M 20 335 L 20 345 L 30 345 M 570 345 L 580 345 L 580 335" stroke="#0F172A" stroke-width="1" opacity="0.5"/>
+  </g>
+</svg>

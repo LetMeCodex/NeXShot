@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="tacticalGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0F172A" stroke-width="0.35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="0.6" fill="#0F172A" opacity="0.35"/>
+    </pattern>
+    <pattern id="diagHatch" width="16" height="16" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#0F172A" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="320" height="220" fill="url(#tacticalGrid)" opacity="0.35"/>
+  <!-- Topographic Contour Lines -->
+  <g stroke="#0F172A" stroke-width="0.65" opacity="0.32">
+    <path d="M 0.0,57.8 L 8.0,59.5 L 16.0,61.1 L 24.0,62.4 L 32.0,63.5 L 40.0,64.4 L 48.0,64.9 L 56.0,65.1 L 64.0,65.0 L 72.0,64.6 L 80.0,63.8 L 88.0,62.7 L 96.0,61.3 L 104.0,59.6 L 112.0,57.6 L 120.0,55.4 L 128.0,52.9 L 136.0,50.4 L 144.0,47.7 L 152.0,44.9 L 160.0,42.1 L 168.0,39.4 L 176.0,36.7 L 184.0,34.1 L 192.0,31.7 L 200.0,29.5 L 208.0,27.5 L 216.0,25.8 L 224.0,24.4 L 232.0,23.3 L 240.0,22.6 L 248.0,22.2 L 256.0,22.2 L 264.0,22.5 L 272.0,23.1 L 280.0,24.1 L 288.0,25.4 L 296.0,26.9 L 304.0,28.7 L 312.0,30.6 L 320.0,32.8" />
+    <path d="M 0.0,103.3 L 8.0,104.1 L 16.0,104.5 L 24.0,104.4 L 32.0,103.9 L 40.0,102.9 L 48.0,101.4 L 56.0,99.5 L 64.0,97.2 L 72.0,94.5 L 80.0,91.6 L 88.0,88.4 L 96.0,85.0 L 104.0,81.5 L 112.0,77.9 L 120.0,74.4 L 128.0,71.0 L 136.0,67.9 L 144.0,65.0 L 152.0,62.4 L 160.0,60.2 L 168.0,58.5 L 176.0,57.2 L 184.0,56.5 L 192.0,56.2 L 200.0,56.5 L 208.0,57.3 L 216.0,58.7 L 224.0,60.5 L 232.0,62.7 L 240.0,65.3 L 248.0,68.2 L 256.0,71.3 L 264.0,74.7 L 272.0,78.1 L 280.0,81.6 L 288.0,85.0 L 296.0,88.3 L 304.0,91.4 L 312.0,94.2 L 320.0,96.7" />
+    <path d="M 0.0,147.4 L 8.0,146.8 L 16.0,145.9 L 24.0,144.8 L 32.0,143.4 L 40.0,141.8 L 48.0,140.0 L 56.0,137.9 L 64.0,135.8 L 72.0,133.5 L 80.0,131.1 L 88.0,128.7 L 96.0,126.2 L 104.0,123.8 L 112.0,121.5 L 120.0,119.3 L 128.0,117.3 L 136.0,115.5 L 144.0,113.9 L 152.0,112.5 L 160.0,111.4 L 168.0,110.7 L 176.0,110.2 L 184.0,110.1 L 192.0,110.3 L 200.0,110.9 L 208.0,111.8 L 216.0,113.0 L 224.0,114.5 L 232.0,116.3 L 240.0,118.3 L 248.0,120.6 L 256.0,123.0 L 264.0,125.6 L 272.0,128.3 L 280.0,131.0 L 288.0,133.8 L 296.0,136.6 L 304.0,139.3 L 312.0,141.9 L 320.0,144.4" />
+    <path d="M 0.0,186.3 L 8.0,183.9 L 16.0,181.1 L 24.0,178.0 L 32.0,174.6 L 40.0,171.2 L 48.0,167.8 L 56.0,164.5 L 64.0,161.3 L 72.0,158.5 L 80.0,156.1 L 88.0,154.2 L 96.0,152.9 L 104.0,152.1 L 112.0,152.0 L 120.0,152.6 L 128.0,153.9 L 136.0,155.8 L 144.0,158.4 L 152.0,161.5 L 160.0,165.0 L 168.0,169.0 L 176.0,173.3 L 184.0,177.8 L 192.0,182.4 L 200.0,186.9 L 208.0,191.3 L 216.0,195.4 L 224.0,199.1 L 232.0,202.4 L 240.0,205.1 L 248.0,207.3 L 256.0,208.7 L 264.0,209.5 L 272.0,209.6 L 280.0,209.1 L 288.0,207.8 L 296.0,206.0 L 304.0,203.6 L 312.0,200.8 L 320.0,197.6" stroke="#E63946" opacity="0.25" stroke-dasharray="3 3"/>
+  </g>
+  <!-- Concentric Target Reticle in Top Right -->
+  <g transform="translate(260, 60)">
+    <circle cx="0" cy="0" r="14" stroke="#E63946" stroke-width="1.2" opacity="0.75"/>
+    <circle cx="0" cy="0" r="30" stroke="#0F172A" stroke-width="0.75" opacity="0.45"/>
+    <circle cx="0" cy="0" r="50" stroke="#0F172A" stroke-width="0.65" opacity="0.35"/>
+    <circle cx="0" cy="0" r="75" stroke="#0F172A" stroke-width="0.55" opacity="0.25" stroke-dasharray="3 3"/>
+    <line x1="-80" y1="0" x2="80" y2="0" stroke="#0F172A" stroke-width="0.6" opacity="0.35"/>
+    <line x1="0" y1="-80" x2="0" y2="80" stroke="#0F172A" stroke-width="0.6" opacity="0.35"/>
+    <circle cx="0" cy="0" r="2" fill="#E63946" opacity="0.8"/>
+    <!-- 5 Shot Impact Cluster -->
+    <circle cx="3" cy="-2" r="2.5" fill="#E63946" opacity="0.6"/>
+    <circle cx="-4" cy="4" r="2.5" fill="#0F172A" opacity="0.5"/>
+    <circle cx="6" cy="5" r="2.5" fill="#0F172A" opacity="0.5"/>
+  </g>
+  <!-- Watermark Text -->
+  <text x="18" y="205" font-family="monospace" font-size="7.5" fill="#0F172A" opacity="0.5" letter-spacing="1">ATHLETE REGISTRY // 18 INDIAN STATES</text>
+  <path d="M 12 18 L 12 10 L 20 10 M 300 10 L 308 10 L 308 18 M 12 202 L 12 210 L 20 210 M 300 210 L 308 210 L 308 202" stroke="#0F172A" stroke-width="0.8" opacity="0.4"/>
+</svg>

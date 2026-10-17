@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="tacticalGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0F172A" stroke-width="0.35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="0.6" fill="#0F172A" opacity="0.35"/>
+    </pattern>
+    <pattern id="diagHatch" width="16" height="16" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#0F172A" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#tacticalGrid)" opacity="0.35"/>
+  <!-- Deep Flowing Mountain Topographic Elevation Waves -->
+  <g stroke="#0F172A" stroke-width="0.7" opacity="0.32">
+    <path d="M 0.0,63.7 L 20.0,68.2 L 40.0,72.1 L 60.0,75.2 L 80.0,77.2 L 100.0,78.1 L 120.0,77.7 L 140.0,76.1 L 160.0,73.2 L 180.0,69.2 L 200.0,64.2 L 220.0,58.4 L 240.0,52.0 L 260.0,45.2 L 280.0,38.4 L 300.0,31.8 L 320.0,25.6 L 340.0,20.2 L 360.0,15.6 L 380.0,12.2 L 400.0,10.0 L 420.0,9.0 L 440.0,9.4 L 460.0,11.0 L 480.0,13.7 L 500.0,17.5 L 520.0,22.1 L 540.0,27.2 L 560.0,32.7 L 580.0,38.3 L 600.0,43.7 L 620.0,48.7 L 640.0,53.1 L 660.0,56.6 L 680.0,59.2 L 700.0,60.8 L 720.0,61.3 L 740.0,60.8 L 760.0,59.4 L 780.0,57.1 L 800.0,54.1" />
+    <path d="M 0.0,133.3 L 20.0,136.4 L 40.0,137.8 L 60.0,137.4 L 80.0,135.0 L 100.0,130.6 L 120.0,124.6 L 140.0,117.2 L 160.0,108.7 L 180.0,99.7 L 200.0,90.6 L 220.0,81.9 L 240.0,74.3 L 260.0,68.0 L 280.0,63.5 L 300.0,61.0 L 320.0,60.7 L 340.0,62.5 L 360.0,66.3 L 380.0,71.9 L 400.0,78.9 L 420.0,86.8 L 440.0,95.2 L 460.0,103.6 L 480.0,111.5 L 500.0,118.4 L 520.0,124.0 L 540.0,127.9 L 560.0,130.1 L 580.0,130.4 L 600.0,129.0 L 620.0,126.1 L 640.0,121.9 L 660.0,116.9 L 680.0,111.5 L 700.0,106.2 L 720.0,101.3 L 740.0,97.4 L 760.0,94.6 L 780.0,93.4 L 800.0,93.7" />
+    <path d="M 0.0,188.5 L 20.0,187.9 L 40.0,185.1 L 60.0,180.2 L 80.0,173.6 L 100.0,165.6 L 120.0,156.9 L 140.0,148.1 L 160.0,140.0 L 180.0,133.2 L 200.0,128.3 L 220.0,125.6 L 240.0,125.5 L 260.0,127.9 L 280.0,132.7 L 300.0,139.5 L 320.0,147.8 L 340.0,156.9 L 360.0,166.2 L 380.0,175.0 L 400.0,182.6 L 420.0,188.4 L 440.0,192.2 L 460.0,193.6 L 480.0,192.9 L 500.0,190.0 L 520.0,185.5 L 540.0,179.8 L 560.0,173.6 L 580.0,167.5 L 600.0,162.1 L 620.0,158.0 L 640.0,155.4 L 660.0,154.8 L 680.0,156.0 L 700.0,158.9 L 720.0,163.3 L 740.0,168.6 L 760.0,174.2 L 780.0,179.6 L 800.0,184.1" stroke="#E63946" opacity="0.25" stroke-dasharray="3 3"/>
+    <path d="M 0.0,227.2 L 20.0,224.4 L 40.0,220.5 L 60.0,215.9 L 80.0,210.7 L 100.0,205.2 L 120.0,199.7 L 140.0,194.5 L 160.0,189.9 L 180.0,186.2 L 200.0,183.7 L 220.0,182.3 L 240.0,182.4 L 260.0,183.9 L 280.0,186.7 L 300.0,190.8 L 320.0,196.0 L 340.0,202.1 L 360.0,208.6 L 380.0,215.5 L 400.0,222.2 L 420.0,228.6 L 440.0,234.2 L 460.0,238.9 L 480.0,242.5 L 500.0,244.7 L 520.0,245.6 L 540.0,245.1 L 560.0,243.3 L 580.0,240.4 L 600.0,236.5 L 620.0,231.9 L 640.0,226.9 L 660.0,221.8 L 680.0,216.9 L 700.0,212.4 L 720.0,208.6 L 740.0,205.7 L 760.0,203.8 L 780.0,203.1 L 800.0,203.4" />
+  </g>
+  <!-- Memorial Ceremonial Honor Flame & Laurel Crest -->
+  <g transform="translate(600, 125)">
+    <!-- Concentric Honor Shield Rings -->
+    <circle cx="0" cy="0" r="20" stroke="#E63946" stroke-width="1.3" opacity="0.8"/>
+    <circle cx="0" cy="0" r="45" stroke="#0F172A" stroke-width="0.8" opacity="0.45"/>
+    <circle cx="0" cy="0" r="75" stroke="#0F172A" stroke-width="0.65" opacity="0.3" stroke-dasharray="3 2"/>
+    <!-- Memorial Ceremonial Torch Flame -->
+    <path d="M 0 -35 C 8 -25 10 -15 0 0 C -10 -15 -8 -25 0 -35 Z" fill="#E63946" opacity="0.7"/>
+    <!-- Honor Ribbon Banner Line -->
+    <path d="M -50 45 C -25 38 25 38 50 45" stroke="#0F172A" stroke-width="1.2" fill="none" opacity="0.5"/>
+    <text x="0" y="58" font-family="monospace" font-size="7" fill="#0F172A" text-anchor="middle" letter-spacing="1" opacity="0.6">HONORING ASIAN MEDALISTS</text>
+  </g>
+  <!-- Watermark Text -->
+  <text x="30" y="245" font-family="monospace" font-size="8" fill="#0F172A" opacity="0.45" letter-spacing="1.5">1ST SHAHEED SEHRAWAT MEMORIAL SHOOTING CHAMPIONSHIP // BITAWADA RANGE</text>
+  <path d="M 15 20 L 15 12 L 23 12 M 785 12 L 777 12 L 785 20 M 15 240 L 15 248 L 23 248 M 785 240 L 785 248 L 777 248" stroke="#0F172A" stroke-width="1" opacity="0.4"/>
+</svg>

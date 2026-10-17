@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="tacticalGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0F172A" stroke-width="0.35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="0.6" fill="#0F172A" opacity="0.35"/>
+    </pattern>
+    <pattern id="diagHatch" width="16" height="16" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#0F172A" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#tacticalGrid)" opacity="0.35"/>
+  <!-- Topographic Elevation Contours -->
+  <g stroke="#0F172A" stroke-width="0.65" opacity="0.3">
+    <path d="M 0.0,81.1 L 20.0,84.1 L 40.0,86.3 L 60.0,87.5 L 80.0,87.7 L 100.0,86.8 L 120.0,84.7 L 140.0,81.6 L 160.0,77.5 L 180.0,72.6 L 200.0,67.0 L 220.0,61.1 L 240.0,54.9 L 260.0,48.8 L 280.0,43.0 L 300.0,37.7 L 320.0,33.2 L 340.0,29.7 L 360.0,27.2 L 380.0,25.9 L 400.0,25.7 L 420.0,26.8 L 440.0,29.0 L 460.0,32.3 L 480.0,36.3 L 500.0,41.1 L 520.0,46.3 L 540.0,51.7 L 560.0,57.1 L 580.0,62.3 L 600.0,66.9 L 620.0,70.9 L 640.0,74.1 L 660.0,76.4 L 680.0,77.6 L 700.0,77.9 L 720.0,77.2 L 740.0,75.6 L 760.0,73.3 L 780.0,70.4 L 800.0,67.1" />
+    <path d="M 0.0,145.0 L 20.0,145.9 L 40.0,145.1 L 60.0,142.7 L 80.0,138.6 L 100.0,133.1 L 120.0,126.4 L 140.0,119.0 L 160.0,111.1 L 180.0,103.3 L 200.0,96.1 L 220.0,89.8 L 240.0,84.9 L 260.0,81.5 L 280.0,80.1 L 300.0,80.5 L 320.0,82.9 L 340.0,87.0 L 360.0,92.6 L 380.0,99.5 L 400.0,107.0 L 420.0,114.9 L 440.0,122.7 L 460.0,129.9 L 480.0,136.1 L 500.0,141.0 L 520.0,144.4 L 540.0,146.1 L 560.0,146.2 L 580.0,144.6 L 600.0,141.7 L 620.0,137.6 L 640.0,132.8 L 660.0,127.7 L 680.0,122.6 L 700.0,118.0 L 720.0,114.2 L 740.0,111.5 L 760.0,110.2 L 780.0,110.2 L 800.0,111.7" />
+    <path d="M 0.0,204.1 L 20.0,202.2 L 40.0,199.3 L 60.0,195.5 L 80.0,191.0 L 100.0,186.0 L 120.0,180.7 L 140.0,175.5 L 160.0,170.7 L 180.0,166.4 L 200.0,163.0 L 220.0,160.6 L 240.0,159.4 L 260.0,159.5 L 280.0,160.8 L 300.0,163.5 L 320.0,167.2 L 340.0,172.0 L 360.0,177.4 L 380.0,183.4 L 400.0,189.6 L 420.0,195.6 L 440.0,201.3 L 460.0,206.4 L 480.0,210.6 L 500.0,213.7 L 520.0,215.6 L 540.0,216.3 L 560.0,215.8 L 580.0,214.2 L 600.0,211.6 L 620.0,208.1 L 640.0,204.1 L 660.0,199.7 L 680.0,195.3 L 700.0,191.1 L 720.0,187.4 L 740.0,184.3 L 760.0,182.0 L 780.0,180.7 L 800.0,180.3" stroke="#E63946" opacity="0.25" stroke-dasharray="3 3"/>
+  </g>
+  <!-- SIUS Electronic Target Sensor Array & 4 COC Laurels -->
+  <g transform="translate(600, 130)">
+    <!-- Concentric SIUS Electronic Rings -->
+    <circle cx="0" cy="0" r="18" stroke="#E63946" stroke-width="1.3" opacity="0.8"/>
+    <circle cx="0" cy="0" r="40" stroke="#0F172A" stroke-width="0.8" opacity="0.45"/>
+    <circle cx="0" cy="0" r="70" stroke="#0F172A" stroke-width="0.7" opacity="0.35"/>
+    <circle cx="0" cy="0" r="105" stroke="#0F172A" stroke-width="0.6" opacity="0.25" stroke-dasharray="4 3"/>
+    <!-- SIUS 4-Corner Acoustic Sensor Array Transducers -->
+    <rect x="-80" y="-80" width="16" height="16" rx="2" stroke="#E63946" stroke-width="1" fill="none" opacity="0.7"/>
+    <rect x="64" y="-80" width="16" height="16" rx="2" stroke="#E63946" stroke-width="1" fill="none" opacity="0.7"/>
+    <rect x="-80" y="64" width="16" height="16" rx="2" stroke="#E63946" stroke-width="1" fill="none" opacity="0.7"/>
+    <rect x="64" y="64" width="16" height="16" rx="2" stroke="#E63946" stroke-width="1" fill="none" opacity="0.7"/>
+    <!-- Diagonal Sensor Soundwave Tracking Lines -->
+    <line x1="-72" y1="-72" x2="0" y2="0" stroke="#E63946" stroke-width="0.75" opacity="0.4" stroke-dasharray="2 2"/>
+    <line x1="72" y1="-72" x2="0" y2="0" stroke="#E63946" stroke-width="0.75" opacity="0.4" stroke-dasharray="2 2"/>
+    <line x1="-72" y1="72" x2="0" y2="0" stroke="#E63946" stroke-width="0.75" opacity="0.4" stroke-dasharray="2 2"/>
+    <line x1="72" y1="72" x2="0" y2="0" stroke="#E63946" stroke-width="0.75" opacity="0.4" stroke-dasharray="2 2"/>
+    <circle cx="0" cy="0" r="2.5" fill="#E63946" opacity="0.9"/>
+  </g>
+  <!-- Watermark Text -->
+  <text x="30" y="245" font-family="monospace" font-size="8" fill="#0F172A" opacity="0.45" letter-spacing="1.5">SIUS ASCOR EST // 4 CHAMPION OF CHAMPIONS FINALS // ₹1,00,000 CASH AWARDS</text>
+  <path d="M 15 20 L 15 12 L 23 12 M 785 12 L 777 12 L 785 20 M 15 240 L 15 248 L 23 248 M 785 240 L 785 248 L 777 248" stroke="#0F172A" stroke-width="1" opacity="0.4"/>
+</svg>

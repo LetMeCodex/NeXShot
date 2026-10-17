@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="tacticalGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0F172A" stroke-width="0.35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="0.6" fill="#0F172A" opacity="0.35"/>
+    </pattern>
+    <pattern id="diagHatch" width="16" height="16" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#0F172A" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="360" fill="url(#tacticalGrid)" opacity="0.4"/>
+
+  <!-- Topographic Contour Curves in Background -->
+  <g stroke="#0F172A" stroke-width="0.65" opacity="0.3">
+    <path d="M 0.0,78.2 L 15.0,81.0 L 30.0,83.3 L 45.0,84.9 L 60.0,85.9 L 75.0,86.0 L 90.0,85.4 L 105.0,83.9 L 120.0,81.7 L 135.0,78.8 L 150.0,75.1 L 165.0,71.0 L 180.0,66.4 L 195.0,61.5 L 210.0,56.5 L 225.0,51.6 L 240.0,46.8 L 255.0,42.3 L 270.0,38.3 L 285.0,35.0 L 300.0,32.3 L 315.0,30.4 L 330.0,29.3 L 345.0,29.1 L 360.0,29.8 L 375.0,31.3 L 390.0,33.5 L 405.0,36.4 L 420.0,39.9 L 435.0,43.7 L 450.0,47.9 L 465.0,52.2 L 480.0,56.4 L 495.0,60.6 L 510.0,64.4 L 525.0,67.7 L 540.0,70.6 L 555.0,72.8 L 570.0,74.4 L 585.0,75.2 L 600.0,75.4" />
+    <path d="M 0.0,132.4 L 15.0,133.6 L 30.0,133.8 L 45.0,132.8 L 60.0,130.8 L 75.0,127.6 L 90.0,123.5 L 105.0,118.6 L 120.0,113.1 L 135.0,107.1 L 150.0,101.1 L 165.0,95.1 L 180.0,89.5 L 195.0,84.6 L 210.0,80.5 L 225.0,77.4 L 240.0,75.5 L 255.0,74.8 L 270.0,75.4 L 285.0,77.3 L 300.0,80.3 L 315.0,84.3 L 330.0,89.2 L 345.0,94.7 L 360.0,100.5 L 375.0,106.5 L 390.0,112.3 L 405.0,117.6 L 420.0,122.4 L 435.0,126.4 L 450.0,129.3 L 465.0,131.3 L 480.0,132.1 L 495.0,131.8 L 510.0,130.6 L 525.0,128.4 L 540.0,125.5 L 555.0,122.0 L 570.0,118.3 L 585.0,114.4 L 600.0,110.7" />
+    <path d="M 0.0,268.6 L 15.0,267.3 L 30.0,265.4 L 45.0,262.7 L 60.0,259.4 L 75.0,255.6 L 90.0,251.3 L 105.0,246.7 L 120.0,242.0 L 135.0,237.2 L 150.0,232.4 L 165.0,227.9 L 180.0,223.8 L 195.0,220.2 L 210.0,217.2 L 225.0,214.9 L 240.0,213.4 L 255.0,212.7 L 270.0,212.9 L 285.0,214.0 L 300.0,216.0 L 315.0,218.7 L 330.0,222.2 L 345.0,226.4 L 360.0,231.1 L 375.0,236.2 L 390.0,241.6 L 405.0,247.1 L 420.0,252.6 L 435.0,258.0 L 450.0,263.0 L 465.0,267.6 L 480.0,271.6 L 495.0,274.9 L 510.0,277.6 L 525.0,279.4 L 540.0,280.4 L 555.0,280.6 L 570.0,280.0 L 585.0,278.7 L 600.0,276.6" />
+    <path d="M 0.0,306.3 L 15.0,303.3 L 30.0,299.9 L 45.0,296.1 L 60.0,292.0 L 75.0,287.9 L 90.0,284.0 L 105.0,280.3 L 120.0,277.2 L 135.0,274.7 L 150.0,272.9 L 165.0,272.1 L 180.0,272.2 L 195.0,273.2 L 210.0,275.2 L 225.0,278.1 L 240.0,281.8 L 255.0,286.1 L 270.0,291.0 L 285.0,296.3 L 300.0,301.7 L 315.0,307.1 L 330.0,312.3 L 345.0,317.1 L 360.0,321.3 L 375.0,324.7 L 390.0,327.3 L 405.0,329.0 L 420.0,329.7 L 435.0,329.4 L 450.0,328.1 L 465.0,326.0 L 480.0,323.1 L 495.0,319.6 L 510.0,315.7 L 525.0,311.4 L 540.0,307.0 L 555.0,302.7 L 570.0,298.7 L 585.0,295.1 L 600.0,292.0" />
+  </g>
+
+  <!-- Full Olympic Electronic Scoring Target (EST) Architecture -->
+  <g transform="translate(420, 180)">
+    <!-- 10 Concentric Scoring Rings -->
+    <circle cx="0" cy="0" r="15" stroke="#E63946" stroke-width="1.4" opacity="0.85"/>
+    <circle cx="0" cy="0" r="32" stroke="#E63946" stroke-width="1" opacity="0.7"/>
+    <circle cx="0" cy="0" r="54" stroke="#0F172A" stroke-width="0.8" opacity="0.45"/>
+    <circle cx="0" cy="0" r="80" stroke="#0F172A" stroke-width="0.75" opacity="0.4"/>
+    <circle cx="0" cy="0" r="110" stroke="#0F172A" stroke-width="0.7" opacity="0.35"/>
+    <circle cx="0" cy="0" r="145" stroke="#0F172A" stroke-width="0.65" opacity="0.3"/>
+    <circle cx="0" cy="0" r="185" stroke="#0F172A" stroke-width="0.6" opacity="0.25"/>
+    <circle cx="0" cy="0" r="230" stroke="#0F172A" stroke-width="0.55" opacity="0.2"/>
+    <circle cx="0" cy="0" r="280" stroke="#0F172A" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 4"/>
+    
+    <!-- Inner-Ten Center Point & Crosshairs -->
+    <circle cx="0" cy="0" r="2.5" fill="#E63946" opacity="0.9"/>
+    <line x1="-310" y1="0" x2="310" y2="0" stroke="#0F172A" stroke-width="0.75" opacity="0.45"/>
+    <line x1="0" y1="-210" x2="0" y2="210" stroke="#0F172A" stroke-width="0.75" opacity="0.45"/>
+    
+    <!-- Inner 10.9 Crosshairs with Brand Signal Accent -->
+    <line x1="-22" y1="0" x2="22" y2="0" stroke="#E63946" stroke-width="1.5" opacity="0.9"/>
+    <line x1="0" y1="-22" x2="0" y2="22" stroke="#E63946" stroke-width="1.5" opacity="0.9"/>
+
+    <!-- 360 Degree Dial Radial Angle Ticks (0, 30, 45, 60, 90, 120, etc.) -->
+    <g stroke="#0F172A" stroke-width="0.6" opacity="0.4">
+      <!-- 45-deg diagonals -->
+      <line x1="-190" y1="-190" x2="190" y2="190" stroke-dasharray="3 3"/>
+      <line x1="-190" y1="190" x2="190" y2="-190" stroke-dasharray="3 3"/>
+      <!-- Perimeter Angle Ticks -->
+      <line x1="0" y1="-185" x2="0" y2="-175" stroke-width="1.2"/>
+      <line x1="185" y1="0" x2="175" y2="0" stroke-width="1.2"/>
+      <line x1="0" y1="185" x2="0" y2="175" stroke-width="1.2"/>
+      <line x1="-185" y1="0" x2="-175" y2="0" stroke-width="1.2"/>
+    </g>
+
+    <!-- Radar Sweep Sector Arc -->
+    <path d="M 0 0 L 120 -80 A 145 145 0 0 1 145 0 Z" fill="#E63946" opacity="0.08"/>
+    <line x1="0" y1="0" x2="120" y2="-80" stroke="#E63946" stroke-width="1.2" opacity="0.5"/>
+
+    <!-- Simulated Precision Shot Cluster (Olympic 10-Ring Dispersion) -->
+    <g>
+      <circle cx="4" cy="-3" r="3.5" fill="#E63946" opacity="0.75"/>
+      <text x="12" y="-1" font-family="monospace" font-size="8" fill="#E63946" font-weight="700">10.9*</text>
+      <circle cx="-5" cy="5" r="3.5" fill="#0F172A" opacity="0.6"/>
+      <text x="-32" y="9" font-family="monospace" font-size="7" fill="#0F172A">10.7</text>
+      <circle cx="10" cy="8" r="3.5" fill="#0F172A" opacity="0.6"/>
+      <text x="16" y="14" font-family="monospace" font-size="7" fill="#0F172A">10.8</text>
+    </g>
+
+    <!-- Millimeter Vernier Callout Scale -->
+    <g transform="translate(-280, 100)" font-family="monospace" font-size="7" fill="#0F172A" opacity="0.5">
+      <text x="0" y="0">DISPERSION: 0.12mm</text>
+      <text x="0" y="11">X-VEC: +0.003mm</text>
+      <text x="0" y="22">Y-VEC: -0.001mm</text>
+      <text x="0" y="33">INNER-TEN: 100%</text>
+    </g>
+  </g>
+
+  <!-- Technical Watermark Telemetry -->
+  <g font-family="monospace" font-size="8" fill="#0F172A" opacity="0.5" letter-spacing="1.5">
+    <text x="35" y="45">EST CALIBRATION // 10.9 BULLSEYE // SUB-MILLIMETER OPTICAL ENGINE</text>
+    <text x="35" y="340">LIVE UDP BROADCAST // LATENCY: 0.00s // DUAL-BAND SYNCHRONIZATION</text>
+    <!-- Corner Framing -->
+    <path d="M 20 25 L 20 15 L 30 15 M 570 15 L 580 15 L 580 25 M 20 335 L 20 345 L 30 345 M 570 345 L 580 345 L 580 335" stroke="#0F172A" stroke-width="1" opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="tacticalGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0F172A" stroke-width="0.35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="0.6" fill="#0F172A" opacity="0.35"/>
+    </pattern>
+    <pattern id="diagHatch" width="16" height="16" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#0F172A" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="260" fill="url(#tacticalGrid)" opacity="0.35"/>
+  <!-- Topographic Contours Across Card -->
+  <g stroke="#0F172A" stroke-width="0.65" opacity="0.3">
+    <path d="M 0.0,67.0 L 20.0,70.2 L 40.0,72.9 L 60.0,74.9 L 80.0,76.3 L 100.0,76.8 L 120.0,76.5 L 140.0,75.4 L 160.0,73.4 L 180.0,70.6 L 200.0,67.1 L 220.0,62.9 L 240.0,58.3 L 260.0,53.4 L 280.0,48.2 L 300.0,43.1 L 320.0,38.1 L 340.0,33.4 L 360.0,29.3 L 380.0,25.7 L 400.0,22.9 L 420.0,20.9 L 440.0,19.8 L 460.0,19.6 L 480.0,20.2 L 500.0,21.7 L 520.0,24.0 L 540.0,27.0 L 560.0,30.5 L 580.0,34.5 L 600.0,38.7 L 620.0,43.0 L 640.0,47.3 L 660.0,51.3 L 680.0,55.0 L 700.0,58.2 L 720.0,60.8 L 740.0,62.8 L 760.0,64.0 L 780.0,64.5 L 800.0,64.2" />
+    <path d="M 0.0,134.5 L 20.0,136.4 L 40.0,137.1 L 60.0,136.4 L 80.0,134.3 L 100.0,130.8 L 120.0,126.1 L 140.0,120.4 L 160.0,113.8 L 180.0,106.8 L 200.0,99.7 L 220.0,92.7 L 240.0,86.3 L 260.0,80.8 L 280.0,76.4 L 300.0,73.4 L 320.0,71.9 L 340.0,72.0 L 360.0,73.6 L 380.0,76.7 L 400.0,81.1 L 420.0,86.6 L 440.0,92.8 L 460.0,99.5 L 480.0,106.3 L 500.0,112.9 L 520.0,118.9 L 540.0,124.1 L 560.0,128.2 L 580.0,131.1 L 600.0,132.7 L 620.0,132.9 L 640.0,131.9 L 660.0,129.6 L 680.0,126.5 L 700.0,122.6 L 720.0,118.3 L 740.0,113.9 L 760.0,109.8 L 780.0,106.1 L 800.0,103.1" />
+    <path d="M 0.0,198.4 L 20.0,197.3 L 40.0,195.2 L 60.0,192.2 L 80.0,188.3 L 100.0,183.7 L 120.0,178.6 L 140.0,173.2 L 160.0,167.7 L 180.0,162.3 L 200.0,157.4 L 220.0,153.1 L 240.0,149.6 L 260.0,147.1 L 280.0,145.7 L 300.0,145.5 L 320.0,146.5 L 340.0,148.7 L 360.0,152.0 L 380.0,156.3 L 400.0,161.4 L 420.0,167.0 L 440.0,173.0 L 460.0,179.2 L 480.0,185.2 L 500.0,190.9 L 520.0,195.9 L 540.0,200.2 L 560.0,203.5 L 580.0,205.8 L 600.0,207.0 L 620.0,207.1 L 640.0,206.1 L 660.0,204.1 L 680.0,201.3 L 700.0,197.8 L 720.0,193.9 L 740.0,189.7 L 760.0,185.4 L 780.0,181.4 L 800.0,177.8" stroke="#E63946" opacity="0.22" stroke-dasharray="4 3"/>
+    <path d="M 0.0,232.1 L 20.0,229.0 L 40.0,225.1 L 60.0,220.7 L 80.0,216.0 L 100.0,211.4 L 120.0,207.2 L 140.0,203.6 L 160.0,201.0 L 180.0,199.5 L 200.0,199.3 L 220.0,200.4 L 240.0,202.8 L 260.0,206.4 L 280.0,211.1 L 300.0,216.5 L 320.0,222.4 L 340.0,228.5 L 360.0,234.4 L 380.0,239.8 L 400.0,244.3 L 420.0,247.9 L 440.0,250.2 L 460.0,251.2 L 480.0,250.8 L 500.0,249.2 L 520.0,246.4 L 540.0,242.7 L 560.0,238.4 L 580.0,233.7 L 600.0,229.0 L 620.0,224.5 L 640.0,220.5 L 660.0,217.4 L 680.0,215.2 L 700.0,214.1 L 720.0,214.0 L 740.0,215.0 L 760.0,216.9 L 780.0,219.5 L 800.0,222.6" />
+  </g>
+  <!-- Rapid Fire 5-Target Concentric Circles Sequence in Center Right -->
+  <g transform="translate(560, 130)" opacity="0.45">
+    <g stroke="#0F172A" stroke-width="0.75">
+      <!-- Target 1 -->
+      <circle cx="-160" cy="0" r="28"/>
+      <circle cx="-160" cy="0" r="14" stroke="#E63946"/>
+      <circle cx="-160" cy="0" r="2" fill="#E63946"/>
+      <!-- Target 2 -->
+      <circle cx="-80" cy="0" r="28"/>
+      <circle cx="-80" cy="0" r="14" stroke="#E63946"/>
+      <circle cx="-80" cy="0" r="2" fill="#E63946"/>
+      <!-- Target 3 -->
+      <circle cx="0" cy="0" r="32" stroke-width="1"/>
+      <circle cx="0" cy="0" r="16" stroke="#E63946" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="2.5" fill="#E63946"/>
+      <!-- Target 4 -->
+      <circle cx="80" cy="0" r="28"/>
+      <circle cx="80" cy="0" r="14" stroke="#E63946"/>
+      <circle cx="80" cy="0" r="2" fill="#E63946"/>
+      <!-- Target 5 -->
+      <circle cx="160" cy="0" r="28"/>
+      <circle cx="160" cy="0" r="14" stroke="#E63946"/>
+      <circle cx="160" cy="0" r="2" fill="#E63946"/>
+    </g>
+    <!-- Rapid Fire Connecting Trajectory Line -->
+    <line x1="-200" y1="0" x2="200" y2="0" stroke="#E63946" stroke-width="0.9" stroke-dasharray="3 3" opacity="0.6"/>
+  </g>
+  <!-- Watermark Text -->
+  <text x="30" y="245" font-family="monospace" font-size="8" fill="#0F172A" opacity="0.45" letter-spacing="1.5">SOUL SHOOT 10M // RAPID & PRECISION SQUADS // PUNJABI BAGH</text>
+  <!-- Corner Registrations -->
+  <path d="M 15 20 L 15 12 L 23 12 M 785 12 L 777 12 L 785 20 M 15 240 L 15 248 L 23 248 M 785 240 L 785 248 L 777 248" stroke="#0F172A" stroke-width="1" opacity="0.4"/>
+</svg>

@@ -6,3 +6,17 @@ Desktop.ini
 # Development raw screenshots and media
 Screenshot*.png
 WhatsApp Image*.jpeg
+*.bak
+screenshots/
+*-watermarks-*.png
+section-*.png
+
+# Temporary test/scratch scripts
+check_*.py
+find_*.py
+inspect_*.py
+list_*.py
+test_*.py
+apply_*.py
+generate_*.py
+bundle_patterns.py

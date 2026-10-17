@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="tacticalGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#0F172A" stroke-width="0.35" opacity="0.3"/>
+      <circle cx="12" cy="12" r="0.6" fill="#0F172A" opacity="0.35"/>
+    </pattern>
+    <pattern id="diagHatch" width="16" height="16" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#0F172A" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="320" height="220" fill="url(#tacticalGrid)" opacity="0.35"/>
+  <!-- Topographic Contour Lines -->
+  <g stroke="#0F172A" stroke-width="0.65" opacity="0.32">
+    <path d="M 0.0,77.2 L 8.0,79.0 L 16.0,80.5 L 24.0,81.6 L 32.0,82.4 L 40.0,82.7 L 48.0,82.6 L 56.0,82.1 L 64.0,81.1 L 72.0,79.7 L 80.0,77.9 L 88.0,75.8 L 96.0,73.2 L 104.0,70.4 L 112.0,67.3 L 120.0,64.0 L 128.0,60.6 L 136.0,57.1 L 144.0,53.6 L 152.0,50.2 L 160.0,46.9 L 168.0,43.8 L 176.0,41.0 L 184.0,38.5 L 192.0,36.3 L 200.0,34.5 L 208.0,33.2 L 216.0,32.3 L 224.0,31.9 L 232.0,32.0 L 240.0,32.5 L 248.0,33.5 L 256.0,34.9 L 264.0,36.7 L 272.0,38.9 L 280.0,41.3 L 288.0,44.0 L 296.0,46.9 L 304.0,49.9 L 312.0,53.0 L 320.0,56.0" />
+    <path d="M 0.0,127.8 L 8.0,127.5 L 16.0,126.6 L 24.0,125.1 L 32.0,123.1 L 40.0,120.7 L 48.0,117.8 L 56.0,114.6 L 64.0,111.0 L 72.0,107.3 L 80.0,103.4 L 88.0,99.5 L 96.0,95.7 L 104.0,92.1 L 112.0,88.7 L 120.0,85.7 L 128.0,83.1 L 136.0,81.0 L 144.0,79.5 L 152.0,78.6 L 160.0,78.3 L 168.0,78.7 L 176.0,79.7 L 184.0,81.4 L 192.0,83.6 L 200.0,86.3 L 208.0,89.5 L 216.0,93.1 L 224.0,97.0 L 232.0,101.1 L 240.0,105.4 L 248.0,109.6 L 256.0,113.7 L 264.0,117.7 L 272.0,121.3 L 280.0,124.6 L 288.0,127.5 L 296.0,129.9 L 304.0,131.7 L 312.0,133.0 L 320.0,133.7" />
+    <path d="M 0.0,171.7 L 8.0,170.2 L 16.0,168.4 L 24.0,166.4 L 32.0,164.2 L 40.0,161.9 L 48.0,159.5 L 56.0,157.1 L 64.0,154.6 L 72.0,152.2 L 80.0,150.0 L 88.0,147.8 L 96.0,145.9 L 104.0,144.2 L 112.0,142.8 L 120.0,141.8 L 128.0,141.0 L 136.0,140.7 L 144.0,140.7 L 152.0,141.1 L 160.0,141.9 L 168.0,143.1 L 176.0,144.6 L 184.0,146.5 L 192.0,148.7 L 200.0,151.1 L 208.0,153.8 L 216.0,156.7 L 224.0,159.8 L 232.0,162.9 L 240.0,166.1 L 248.0,169.3 L 256.0,172.4 L 264.0,175.3 L 272.0,178.1 L 280.0,180.7 L 288.0,183.0 L 296.0,185.0 L 304.0,186.7 L 312.0,188.1 L 320.0,189.0" />
+  </g>
+  <!-- High-Precision Micrometric 10.9 Reticle in Top Right -->
+  <g transform="translate(250, 70)">
+    <circle cx="0" cy="0" r="10" stroke="#E63946" stroke-width="1.3" opacity="0.85"/>
+    <circle cx="0" cy="0" r="24" stroke="#E63946" stroke-width="0.9" opacity="0.6"/>
+    <circle cx="0" cy="0" r="42" stroke="#0F172A" stroke-width="0.75" opacity="0.45"/>
+    <circle cx="0" cy="0" r="65" stroke="#0F172A" stroke-width="0.6" opacity="0.35"/>
+    <line x1="-75" y1="0" x2="75" y2="0" stroke="#0F172A" stroke-width="0.7" opacity="0.4"/>
+    <line x1="0" y1="-75" x2="0" y2="75" stroke="#0F172A" stroke-width="0.7" opacity="0.4"/>
+    <!-- Caliper Vernier Scale Ticks -->
+    <path d="M -40 25 L -40 32 M -30 25 L -30 30 M -20 25 L -20 32 M -10 25 L -10 30 M 0 25 L 0 35 M 10 25 L 10 30 M 20 25 L 20 32 M 30 25 L 30 30 M 40 25 L 40 35" stroke="#E63946" stroke-width="0.8" opacity="0.6"/>
+    <text x="0" y="44" font-family="monospace" font-size="6" fill="#E63946" text-anchor="middle" opacity="0.7">Δ = 0.001mm</text>
+  </g>
+  <!-- Watermark Text -->
+  <text x="18" y="205" font-family="monospace" font-size="7.5" fill="#0F172A" opacity="0.5" letter-spacing="1">OPTICAL DISPERSION 0.00mm // ISSF</text>
+  <path d="M 12 18 L 12 10 L 20 10 M 300 10 L 308 10 L 308 18 M 12 202 L 12 210 L 20 210 M 300 210 L 308 210 L 308 202" stroke="#0F172A" stroke-width="0.8" opacity="0.4"/>
+</svg>
