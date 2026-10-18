@@ -215,8 +215,6 @@
               </p>
               <div class="intro-revamp-tags">
                 <span class="intro-tag-pill"><span class="tag-dot"></span> ISSF & NRAI COMPLIANT</span>
-                <span class="intro-tag-pill"><span class="tag-dot"></span> 0.00s SCORING LATENCY</span>
-                <span class="intro-tag-pill"><span class="tag-dot"></span> 100% DISPUTE-FREE</span>
               </div>
             </div>
           </div>
@@ -241,16 +239,6 @@
               </div>
               <div class="metric-label">Tournaments Conducted</div>
               <div class="metric-desc">Executed open matches and CBSE matches with zero relay delays or scheduling clashes.</div>
-            </div>
-
-            <div class="intro-metric-card" data-counter="99.98" data-suffix="%" data-decimals="2">
-              <div class="nx-card-photo-bg" aria-hidden="true"><img src="${window.NX_CARD_PRINTS['range-targets'] || 'assets/img/card-prints/print-range-targets.jpg'}" class="nx-card-photo-img" alt="" /><div class="nx-card-paper-tone"></div></div>
-              <div class="metric-card-top">
-                <div class="metric-num"><span class="counter-val">0</span><span class="metric-suffix">%</span></div>
-                <span class="metric-badge">DECIMAL ACCURACY</span>
-              </div>
-              <div class="metric-label">Lane Scoring Precision</div>
-              <div class="metric-desc">Instant sub-millimeter optical target calibration eliminating paper scoring protests and manual tally errors.</div>
             </div>
 
             <div class="intro-metric-card" data-counter="2500" data-suffix="+" data-decimals="0">
